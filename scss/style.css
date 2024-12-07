@@ -1,0 +1,29 @@
+.text-Oswald {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+* {
+  text-transform: capitalize;
+}
+.container_logo_true_style {
+  margin-top: -80px; /* Ajusta el logo para que suba*/
+}
+
+.imagen-grande {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .imagen-grande {
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 992px) {
+  .imagen-grande {
+    max-width: 70%;
+  }
+}

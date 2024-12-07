@@ -1,0 +1,224 @@
+{
+  "hombre": [
+    {
+      "id": "1",
+      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
+      "name": "blusa fruncida",
+      "descripcion": "blusa en algodon negra ",
+      "oferta": "despues de 150.000 en compras envio gratis",
+      "price": 50000
+    },
+    {
+      "id": "2",
+      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/3462349-600-900?v=638430614087100000&width=600&height=900&aspect=true",
+      "name": "Pantalón de sudadera en mezcla de algodón",
+      "descripcion": "blusa en algodon negra ",
+      "oferta": "despues de 150.000 en compras envio gratis",
+      "price": 50000
+    },
+    {
+      "id": "3",
+      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
+      "name": "blusa fruncida",
+      "descripcion": "blusa en algodon negra ",
+      "oferta": "despues de 150.000 en compras envio gratis",
+      "price": 50000
+    },
+    {
+      "id": "4",
+      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
+      "name": "blusa fruncida",
+      "descripcion": "blusa en algodon negra ",
+      "oferta": "despues de 150.000 en compras envio gratis",
+      "price": 50000
+    },
+    {
+      "id": "5",
+      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
+      "name": "blusa fruncida",
+      "descripcion": "blusa en algodon negra ",
+      "oferta": "despues de 150.000 en compras envio gratis",
+      "price": 50000
+    },
+    {
+      "id": "6",
+      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
+      "name": "blusa fruncida",
+      "descripcion": "blusa en algodon negra ",
+      "oferta": "despues de 150.000 en compras envio gratis",
+      "price": 50000
+    },
+    {
+      "id": "7",
+      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
+      "name": "blusa fruncida",
+      "descripcion": "blusa en algodon negra ",
+      "oferta": "despues de 150.000 en compras envio gratis",
+      "price": 50000
+    },
+    {
+      "id": "8",
+      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
+      "name": "blusa fruncida",
+      "descripcion": "blusa en algodon negra ",
+      "oferta": "despues de 150.000 en compras envio gratis",
+      "price": 50000
+    },
+    {
+      "id": "9",
+      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
+      "name": "blusa fruncida",
+      "descripcion": "blusa en algodon negra ",
+      "oferta": "despues de 150.000 en compras envio gratis",
+      "price": 50000
+    }
+  ],
+  "mujer": [
+    {
+      "id": "1",
+      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
+      "name": "blusa fruncida",
+      "descripcion": "blusa en algodon negra ",
+      "oferta": "despues de 150.000 en compras envio gratis",
+      "price": 50000
+    },
+    {
+      "id": "2",
+      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/3462349-600-900?v=638430614087100000&width=600&height=900&aspect=true",
+      "name": "Pantalón de sudadera en mezcla de algodón",
+      "descripcion": "blusa en algodon negra ",
+      "oferta": "despues de 150.000 en compras envio gratis",
+      "price": 50000
+    },
+    {
+      "id": "3",
+      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
+      "name": "blusa fruncida",
+      "descripcion": "blusa en algodon negra ",
+      "oferta": "despues de 150.000 en compras envio gratis",
+      "price": 50000
+    },
+    {
+      "id": "4",
+      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
+      "name": "blusa fruncida",
+      "descripcion": "blusa en algodon negra ",
+      "oferta": "despues de 150.000 en compras envio gratis",
+      "price": 50000
+    },
+    {
+      "id": "5",
+      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
+      "name": "blusa fruncida",
+      "descripcion": "blusa en algodon negra ",
+      "oferta": "despues de 150.000 en compras envio gratis",
+      "price": 50000
+    },
+    {
+      "id": "6",
+      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
+      "name": "blusa fruncida",
+      "descripcion": "blusa en algodon negra ",
+      "oferta": "despues de 150.000 en compras envio gratis",
+      "price": 50000
+    },
+    {
+      "id": "7",
+      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
+      "name": "blusa fruncida",
+      "descripcion": "blusa en algodon negra ",
+      "oferta": "despues de 150.000 en compras envio gratis",
+      "price": 50000
+    },
+    {
+      "id": "8",
+      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
+      "name": "blusa fruncida",
+      "descripcion": "blusa en algodon negra ",
+      "oferta": "despues de 150.000 en compras envio gratis",
+      "price": 50000
+    },
+    {
+      "id": "9",
+      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
+      "name": "blusa fruncida",
+      "descripcion": "blusa en algodon negra ",
+      "oferta": "despues de 150.000 en compras envio gratis",
+      "price": 50000
+    }
+  ],
+  "niño": [
+    {
+      "id": "1",
+      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
+      "name": "blusa fruncida",
+      "descripcion": "blusa en algodon negra ",
+      "oferta": "despues de 150.000 en compras envio gratis",
+      "price": 50000
+    },
+    {
+      "id": "2",
+      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/3462349-600-900?v=638430614087100000&width=600&height=900&aspect=true",
+      "name": "Pantalón de sudadera en mezcla de algodón",
+      "descripcion": "blusa en algodon negra ",
+      "oferta": "despues de 150.000 en compras envio gratis",
+      "price": 50000
+    },
+    {
+      "id": "3",
+      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
+      "name": "blusa fruncida",
+      "descripcion": "blusa en algodon negra ",
+      "oferta": "despues de 150.000 en compras envio gratis",
+      "price": 50000
+    },
+    {
+      "id": "4",
+      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
+      "name": "blusa fruncida",
+      "descripcion": "blusa en algodon negra ",
+      "oferta": "despues de 150.000 en compras envio gratis",
+      "price": 50000
+    },
+    {
+      "id": "5",
+      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
+      "name": "blusa fruncida",
+      "descripcion": "blusa en algodon negra ",
+      "oferta": "despues de 150.000 en compras envio gratis",
+      "price": 50000
+    },
+    {
+      "id": "6",
+      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
+      "name": "blusa fruncida",
+      "descripcion": "blusa en algodon negra ",
+      "oferta": "despues de 150.000 en compras envio gratis",
+      "price": 50000
+    },
+    {
+      "id": "7",
+      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
+      "name": "blusa fruncida",
+      "descripcion": "blusa en algodon negra ",
+      "oferta": "despues de 150.000 en compras envio gratis",
+      "price": 50000
+    },
+    {
+      "id": "8",
+      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
+      "name": "blusa fruncida",
+      "descripcion": "blusa en algodon negra ",
+      "oferta": "despues de 150.000 en compras envio gratis",
+      "price": 50000
+    },
+    {
+      "id": "9",
+      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
+      "name": "blusa fruncida",
+      "descripcion": "blusa en algodon negra ",
+      "oferta": "despues de 150.000 en compras envio gratis",
+      "price": 50000
+    }
+  ]
+}
