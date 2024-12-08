@@ -26,8 +26,10 @@
               Iniciar Sesión
             </a>
           </li>
+          <!-- Botón de Carrito -->
           <li class="nav-item">
-            <a class="nav-link text-black" href="">
+            <a class="nav-link text-black" href="#" data-bs-toggle="offcanvas" data-bs-target="#cartOffcanvas"
+              aria-controls="cartOffcanvas">
               <img src="/icon/Carrito.svg" alt="Icono de Carrito">
               Carrito
             </a>
@@ -36,6 +38,37 @@
       </nav>
     </section>
   </header>
+  <!-- Offcanvas Carrito -->
+  <div class="offcanvas offcanvas-end carrito_list" tabindex="-1" id="cartOffcanvas"
+    aria-labelledby="cartOffcanvasLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="cartOffcanvasLabel">Tu Carrito</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
+    </div>
+    <div class="offcanvas-body">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Imagen</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Cantidad</th>
+          </tr>
+        </thead>
+        <tbody id="cart-items">
+          <!-- Los elementos del carrito se cargarán aquí dinámicamente -->
+        </tbody>
+      </table>
+      <p id="empty-cart-message">No hay productos aún.</p>
+      <a class="btn btn-outline-black" href="" id="vaciar_carrito">Vaciar Carrito</a>
+      <a class="btn btn-outline-success" href="">Pagar</a>
+    </div>
+
+    <div class="offcanvas-footer d-flex justify-content-between">
+      <!-- <button type="button" class="btn btn-danger" data-bs-dismiss="offcanvas">Cerrar</button>
+      <button type="button" class="btn btn-success">Proceder al Pago</button> -->
+    </div>
+  </div>
   <main>
     <section class="text-center container_logo_true_style">
       <a href="index.html">
@@ -128,6 +161,7 @@
     <section class="container d-flex justify-content-center pt-3">
       <img src="/icon/Diseño sin título 1.svg" alt="Diseño TrueStyle">
     </section>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </footer>
 </body>
 
