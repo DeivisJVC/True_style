@@ -6,6 +6,7 @@
 }
 * {
   text-transform: capitalize;
+  box-sizing: border-box;
 }
 .container_logo_true_style {
   margin-top: -80px; /* Ajusta el logo para que suba*/
@@ -26,4 +27,37 @@
   .imagen-grande {
     max-width: 70%;
   }
+}
+/*
+/* custom.css o style.css */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Oculta el desplazamiento horizontal */
+  box-sizing: border-box; /* Asegura que el padding y el borde se incluyan en el tamaño total del elemento */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container-fluid,
+.container {
+  max-width: 100%; /* Asegura que el contenedor no exceda el ancho del viewport */
+  overflow-x: hidden; /* Oculta el desplazamiento horizontal en contenedores */
+}
+
+img {
+  max-width: 100%; /* Asegura que las imágenes no excedan el ancho de su contenedor */
+  height: auto;
+}
+
+.navbar-nav {
+  flex-wrap: wrap; /* Permite que los elementos de la barra de navegación se ajusten al ancho disponible */
+}
+
+.section {
+  width: 100%;
 }
