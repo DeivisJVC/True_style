@@ -16,7 +16,7 @@ fetch("http://localhost:3000/hombre")
 
       // Agregar contenido dinámico a la tarjeta, etiqueta a para link de agregar luego a la vista individual
       card.innerHTML = `
-        <img src="${product.img}" class="mt-5"  alt="${product.name}">
+        <img src="${product.img}" class="img-fluid  mt-5"  alt="${product.name}">
         <div class="card-body">
           <h5 class="card-title">${product.name}</h5>
           <p class="card-text">${product.descripcion}</p>
