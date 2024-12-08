@@ -61,3 +61,40 @@ img {
 .section {
   width: 100%;
 }
+/* Asegúrate de que el modal ocupe toda la altura de la pantalla */
+.modal-side-right .modal-dialog {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 0;
+  height: 100%;
+  max-width: 400px; /* Ajusta el ancho según tus necesidades */
+}
+
+.modal-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0;
+  border: none;
+}
+
+.modal-body {
+  overflow-y: auto;
+}
+
+.modal-header {
+  padding: 15px;
+  background-color: #f8f8f8;
+}
+
+.modal-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.btn-close {
+  font-size: 20px;
+}

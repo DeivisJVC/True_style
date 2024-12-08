@@ -22,6 +22,7 @@ fetch("http://localhost:3000/hombre")
           <p class="card-text">${product.descripcion}</p>
           <p class="card-text text-success">${product.oferta}</p>
           <p class="card-text"><strong>Precio: $${product.price}</strong></p>
+          <button class="btn btn-outline-black" onclick="addToCart(product.id)">Agregar al Carrito</button>
         </div>
       `;
       // Agregar la tarjeta al contenedor
