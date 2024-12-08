@@ -13,7 +13,6 @@ fetch("http://localhost:3000/niño")
       // Crear una columna para cada tarjeta
       const card = document.createElement("div");
       card.classList.add("card", "col-md-4", "border-0", "mb-4"); // Añadimos "border-0" aquí para quitar los bordes.
-
       // Agregar contenido dinámico a la tarjeta
       card.innerHTML = `
         <img src="${product.img}" class="mt-5"  alt="${product.name}">

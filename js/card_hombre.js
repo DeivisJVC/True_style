@@ -14,7 +14,7 @@ fetch("http://localhost:3000/hombre")
       const card = document.createElement("div");
       card.classList.add("card", "col-md-4", "border-0", "mb-4"); // Añadimos "border-0" aquí para quitar los bordes.
 
-      // Agregar contenido dinámico a la tarjeta
+      // Agregar contenido dinámico a la tarjeta, etiqueta a para link de agregar luego a la vista individual
       card.innerHTML = `
         <img src="${product.img}" class="mt-5"  alt="${product.name}">
         <div class="card-body">
@@ -24,7 +24,6 @@ fetch("http://localhost:3000/hombre")
           <p class="card-text"><strong>Precio: $${product.price}</strong></p>
         </div>
       `;
-
       // Agregar la tarjeta al contenedor
       container.appendChild(card);
     });
