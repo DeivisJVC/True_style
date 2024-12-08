@@ -2,223 +2,223 @@
   "hombre": [
     {
       "id": "1",
-      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
-      "name": "blusa fruncida",
-      "descripcion": "blusa en algodon negra ",
+      "img": "/img/Hombre/Camiseta-Loose-Fit-con-motivo-estampado---Blanco-Soho-Heights.webp",
+      "name": "Camiseta estampada",
+      "descripcion": "Camiseta en punto de algodón de peso medio con motivo estampado. ",
       "oferta": "despues de 150.000 en compras envio gratis",
-      "price": 50000
+      "price": 33000
     },
     {
       "id": "2",
-      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/3462349-600-900?v=638430614087100000&width=600&height=900&aspect=true",
-      "name": "Pantalón de sudadera en mezcla de algodón",
-      "descripcion": "blusa en algodon negra ",
+      "img": "/img/Hombre/Joggers-cargo-Slim-Fit---Negro---.webp",
+      "name": "Joggers cargo Slim Fit",
+      "descripcion": "Joggers en tejido de algodón con cierre decorativo y elástico revestido con cordón de ajuste en la cintura.",
       "oferta": "despues de 150.000 en compras envio gratis",
-      "price": 50000
+      "price": 80000
     },
     {
       "id": "3",
-      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
-      "name": "blusa fruncida",
-      "descripcion": "blusa en algodon negra ",
+      "img": "/img/Hombre/Abrigo-en-mezcla-de-lana---Negro---.webp",
+      "name": "Abrigo en mezcla de lana",
+      "descripcion": "Abrigo de botonadura sencilla en tejido afieltrado de mezcla de lana. ",
       "oferta": "despues de 150.000 en compras envio gratis",
-      "price": 50000
+      "price": 150000
     },
     {
       "id": "4",
-      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
-      "name": "blusa fruncida",
-      "descripcion": "blusa en algodon negra ",
+      "img": "/img/Hombre/Hoodie-Oversized-Fit-con-motivo---Black-Guns-N--Roses--.webp",
+      "name": "Hoodie oversized",
+      "descripcion": "Hoodie en franela de mezcla de algodón de gramaje medio con interior afelpado suave y motivos estampados. ",
       "oferta": "despues de 150.000 en compras envio gratis",
-      "price": 50000
+      "price": 60000
     },
     {
       "id": "5",
-      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
-      "name": "blusa fruncida",
-      "descripcion": "blusa en algodon negra ",
-      "oferta": "despues de 150.000 en compras envio gratis",
-      "price": 50000
+      "img": "/img/Hombre/Pantalon-de-algodon-Slim-Fit---Azul-marino---.webp",
+      "name": "Pantalon de algodon slim fit",
+      "descripcion": "",
+      "oferta": "Pantalón en sarga elástica de algodón",
+      "price": 75000
     },
     {
       "id": "6",
-      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
-      "name": "blusa fruncida",
-      "descripcion": "blusa en algodon negra ",
+      "img": "/img/Hombre/Hoodie-de-efecto-lavado-Loose-Fit---Negro---.webp",
+      "name": "Hoodie Loose Fit",
+      "descripcion": "Hoodie en franela de algodón de gramaje alto con efecto lavado",
       "oferta": "despues de 150.000 en compras envio gratis",
-      "price": 50000
+      "price": 85000
     },
     {
       "id": "7",
-      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
-      "name": "blusa fruncida",
+      "img": "/img/Hombre/Hoodie-acanalado-Loose-Fit---Negro---.webp",
+      "name": "Hoodie acanalado",
       "descripcion": "blusa en algodon negra ",
-      "oferta": "despues de 150.000 en compras envio gratis",
-      "price": 50000
+      "oferta": "Hoodie en punto acanalado de mezcla de algodón con motivo bordado en el pecho",
+      "price": 85000
     },
     {
       "id": "8",
-      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
-      "name": "blusa fruncida",
-      "descripcion": "blusa en algodon negra ",
+      "img": "/img/Hombre/Hoodie-Regular-Fit---Blanco-Mickey-Mouse---.webp",
+      "name": "Hoodie Regular",
+      "descripcion": "Hoodie en franela de gramaje medio con interior afelpado suave.",
       "oferta": "despues de 150.000 en compras envio gratis",
-      "price": 50000
+      "price": 70000
     },
     {
       "id": "9",
-      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
-      "name": "blusa fruncida",
+      "img": "/img/Hombre/Camisa-resort-Loose-Fit---Negro--.webp",
+      "name": "Camiseta resort fit",
       "descripcion": "blusa en algodon negra ",
-      "oferta": "despues de 150.000 en compras envio gratis",
-      "price": 50000
+      "oferta": "Camisa de manga corta en sarga de algodón con cuello resort, tapeta lisa y hombros caídos. Canesú en la espalda y bajo recto. Corte holgado para una silueta amplia pero no oversize.",
+      "price": 65000
     }
   ],
   "mujer": [
     {
       "id": "1",
-      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
+      "img": "/img//Mujer/Blusa.webp",
       "name": "blusa fruncida",
-      "descripcion": "blusa en algodon negra ",
+      "descripcion": "Top de corte ajustado en punto suave.",
       "oferta": "despues de 150.000 en compras envio gratis",
       "price": 50000
     },
     {
       "id": "2",
-      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/3462349-600-900?v=638430614087100000&width=600&height=900&aspect=true",
-      "name": "Pantalón de sudadera en mezcla de algodón",
-      "descripcion": "blusa en algodon negra ",
+      "img": "/img//Mujer/Hoodie-oversize-con-cremallera---Gris-oscuro-Les-Archives.webp",
+      "name": "Hoodie oversize con cremallera",
+      "descripcion": "Hoodie en franela ligera con motivo oversize.",
       "oferta": "despues de 150.000 en compras envio gratis",
-      "price": 50000
+      "price": 84900
     },
     {
       "id": "3",
-      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
-      "name": "blusa fruncida",
-      "descripcion": "blusa en algodon negra ",
+      "img": "/img//Mujer/Barrel-leg-twill-trousers---Negro--.webp",
+      "name": "Pantalón de sarga con piernas barril",
+      "descripcion": "Pantalón de cinco bolsillos en sarga de algodón ",
       "oferta": "despues de 150.000 en compras envio gratis",
-      "price": 50000
+      "price": 75000
     },
     {
       "id": "4",
-      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
-      "name": "blusa fruncida",
-      "descripcion": "blusa en algodon negra ",
+      "img": "/img//Mujer/Camiseta-oversize-con-motivo-estampado---Gris-oscuro-Olivia-Rodrigo---.webp",
+      "name": "Camiseta oversize con estampado",
+      "descripcion": "Camiseta oversize en punto suave de algodón.",
       "oferta": "despues de 150.000 en compras envio gratis",
-      "price": 50000
+      "price": 70000
     },
     {
       "id": "5",
-      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
-      "name": "blusa fruncida",
+      "img": "/img//Mujer/Pantalon-bota-tubo---Azul-marino---.webp",
+      "name": "Pantalon bota tubo",
       "descripcion": "blusa en algodon negra ",
-      "oferta": "despues de 150.000 en compras envio gratis",
-      "price": 50000
+      "oferta": "Pantalón bota tubo en tejido elástico.",
+      "price": 60000
     },
     {
       "id": "6",
-      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
-      "name": "blusa fruncida",
-      "descripcion": "blusa en algodon negra ",
+      "img": "/img//Mujer/Pantalon-de-sudadera-en-mezcla-de-algodon---Negro.webp",
+      "name": "Pantalón de sudadera en franela",
+      "descripcion": "Pantalón de sudadera en franela suave de mezcla de algodón.",
       "oferta": "despues de 150.000 en compras envio gratis",
-      "price": 50000
+      "price": 54000
     },
     {
       "id": "7",
-      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
-      "name": "blusa fruncida",
-      "descripcion": "blusa en algodon negra ",
+      "img": "/img//Mujer/Joggers-anchos---Gris-oscuro---.webp",
+      "name": "Joggers anchos",
+      "descripcion": "Joggers en franela con cintura elástica y cordón de ajuste.",
       "oferta": "despues de 150.000 en compras envio gratis",
-      "price": 50000
+      "price": 44000
     },
     {
       "id": "8",
-      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
-      "name": "blusa fruncida",
-      "descripcion": "blusa en algodon negra ",
+      "img": "/img//Mujer/Saco-con-motivo-de-texto---Azul-Cannes---.webp",
+      "name": "Saco Oversize",
+      "descripcion": "Saco oversize en franela de interior afelpado suave y motivo delantero de texto.",
       "oferta": "despues de 150.000 en compras envio gratis",
-      "price": 50000
+      "price": 56000
     },
     {
       "id": "9",
-      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
-      "name": "blusa fruncida",
-      "descripcion": "blusa en algodon negra ",
+      "img": "/img//Mujer/Hoodie-oversize-con-cremallera---Beige-claro-Jane-s-addiction.webp",
+      "name": "Hoodie en franela con motivo estampado",
+      "descripcion": "Hoodie en franela con motivo estampado e interior afelpado suave. ",
       "oferta": "despues de 150.000 en compras envio gratis",
-      "price": 50000
+      "price": 80000
     }
   ],
   "niño": [
     {
       "id": "1",
-      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
-      "name": "blusa fruncida",
-      "descripcion": "blusa en algodon negra ",
+      "img": "/img/Niños/Niña/Camiseta-con-ribetes-fileteados---Beige-claro-Floral---.webp",
+      "name": "Camiseta con ribes ",
+      "descripcion": "Camiseta en punto acanalado de algodón",
       "oferta": "despues de 150.000 en compras envio gratis",
-      "price": 50000
+      "price": 23000
     },
     {
       "id": "2",
-      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/3462349-600-900?v=638430614087100000&width=600&height=900&aspect=true",
-      "name": "Pantalón de sudadera en mezcla de algodón",
-      "descripcion": "blusa en algodon negra ",
+      "img": "/img/Niños/Niño/Camiseta-de-deporte-en-DryMove™---Negro-Ombre---H-M-CO.webp",
+      "name": "Camiseta deportiva",
+      "descripcion": "Camiseta de deporte en tejido funcional DryMove™",
       "oferta": "despues de 150.000 en compras envio gratis",
-      "price": 50000
+      "price": 30000
     },
     {
       "id": "3",
-      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
-      "name": "blusa fruncida",
-      "descripcion": "blusa en algodon negra ",
+      "img": "/img/Niños/Niño/Hoodie-con-cremallera---Azul-oscuro---H-M-CO.webp",
+      "name": "Hoodie con cremallera",
+      "descripcion": "Hoodie en franela con interior afelpado suave. ",
       "oferta": "despues de 150.000 en compras envio gratis",
-      "price": 50000
+      "price": 45000
     },
     {
       "id": "4",
-      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
-      "name": "blusa fruncida",
-      "descripcion": "blusa en algodon negra ",
+      "img": "/img/Niños/Niña/Wide-Leg-Jeans---Gris-denim---.webp",
+      "name": "Jeans",
+      "descripcion": "Jeans de cinco bolsillos en denim lavado de algodón",
       "oferta": "despues de 150.000 en compras envio gratis",
-      "price": 50000
+      "price": 60000
     },
     {
       "id": "5",
-      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
-      "name": "blusa fruncida",
-      "descripcion": "blusa en algodon negra ",
+      "img": "/img/Niños/Niña/Saco-cardigan-en-tejido-trenzado---Blanco-.webp",
+      "name": "Saco tejido trenzado",
+      "descripcion": "Hoodie en franela con interior afelpado suave. ",
       "oferta": "despues de 150.000 en compras envio gratis",
-      "price": 50000
+      "price": 55000
     },
     {
       "id": "6",
-      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
-      "name": "blusa fruncida",
-      "descripcion": "blusa en algodon negra ",
+      "img": "/img/Niños/Niño/Hoodie-con-cremallera---Negro---H-M-CO.webp",
+      "name": "Hoodie con cremallera",
+      "descripcion": "Hoodie en franela con interior afelpado suave.",
       "oferta": "despues de 150.000 en compras envio gratis",
-      "price": 50000
+      "price": 56000
     },
     {
       "id": "7",
-      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
-      "name": "blusa fruncida",
-      "descripcion": "blusa en algodon negra ",
+      "img": "/img/Niños/Niña/Saco-cardigan-estampado---Beige-Estampado-leopardo---.webp",
+      "name": "Saco estampado",
+      "descripcion": "Saco cárdigan estampado en tejido fino y suave de algodón. ",
       "oferta": "despues de 150.000 en compras envio gratis",
-      "price": 50000
+      "price": 54000
     },
     {
       "id": "8",
-      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
-      "name": "blusa fruncida",
-      "descripcion": "blusa en algodon negra ",
+      "img": "/img/Niños/Niño/Joggers-en-franela-de-algodon---Blanco---webp.webp",
+      "name": "Joggers de algodon",
+      "descripcion": "Joggers en franela de algodón con interior afelpado suave.  ",
       "oferta": "despues de 150.000 en compras envio gratis",
-      "price": 50000
+      "price": 45000
     },
     {
       "id": "9",
-      "img": "https://hmcolombia.vtexassets.com/arquivos/ids/4112416-483-725?v=638671676728970000&width=483&height=725&aspect=true",
-      "name": "blusa fruncida",
-      "descripcion": "blusa en algodon negra ",
+      "img": "/img/Niños/Niño/Wide-Leg-Jeans---Gris-denim---.webp",
+      "name": "Joggers de franela",
+      "descripcion": "Joggers en franela de algodón con interior afelpado suave. ",
       "oferta": "despues de 150.000 en compras envio gratis",
-      "price": 50000
+      "price": 43000
     }
   ]
 }
