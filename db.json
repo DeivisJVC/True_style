@@ -36,8 +36,8 @@
       "id": "5",
       "img": "/img/Hombre/Pantalon-de-algodon-Slim-Fit---Azul-marino---.webp",
       "name": "Pantalon de algodon slim fit",
-      "descripcion": "",
-      "oferta": "Pantalón en sarga elástica de algodón",
+      "descripcion": "Pantalón en sarga elástica de algodón",
+      "oferta": "despues de 150.000 en compras envio gratis",
       "price": 75000
     },
     {
@@ -52,8 +52,8 @@
       "id": "7",
       "img": "/img/Hombre/Hoodie-acanalado-Loose-Fit---Negro---.webp",
       "name": "Hoodie acanalado",
-      "descripcion": "blusa en algodon negra ",
-      "oferta": "Hoodie en punto acanalado de mezcla de algodón con motivo bordado en el pecho",
+      "descripcion": "Hoodie en punto acanalado de mezcla de algodón con motivo bordado en el pecho ",
+      "oferta": "despues de 150.000 en compras envio gratis",
       "price": 85000
     },
     {
@@ -68,8 +68,8 @@
       "id": "9",
       "img": "/img/Hombre/Camisa-resort-Loose-Fit---Negro--.webp",
       "name": "Camiseta resort fit",
-      "descripcion": "blusa en algodon negra ",
-      "oferta": "Camisa de manga corta en sarga de algodón con cuello resort, tapeta lisa y hombros caídos. Canesú en la espalda y bajo recto. Corte holgado para una silueta amplia pero no oversize.",
+      "descripcion": "Camisa de manga corta en sarga de algodón con cuello resort, tapeta lisa y hombros caídos. Canesú en la espalda y bajo recto. Corte holgado para una silueta amplia pero no oversize.",
+      "oferta": "despues de 150.000 en compras envio gratis",
       "price": 65000
     }
   ],
