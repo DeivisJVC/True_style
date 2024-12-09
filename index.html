@@ -22,9 +22,7 @@
         <ul class="nav justify-content-end w-100 align-items-center">
           <li class="nav-item">
             <a class="nav-link text-black" href="login.php">
-              <img src="/icon/User.svg" alt="Icono de Usuario">
-              Iniciar Sesión
-            </a>
+              <img src="/icon/User.svg" alt="Icono de Usuario"> Iniciar Sesión </a>
           </li>
           <!-- Botón de Carrito -->
           <li class="nav-item">
@@ -38,6 +36,7 @@
       </nav>
     </section>
   </header>
+
   <!-- Offcanvas Carrito -->
   <div class="offcanvas offcanvas-end carrito_list" tabindex="-1" id="cartOffcanvas"
     aria-labelledby="cartOffcanvasLabel">
@@ -66,9 +65,11 @@
 
     <div class="offcanvas-footer d-flex justify-content-between">
       <!-- <button type="button" class="btn btn-danger" data-bs-dismiss="offcanvas">Cerrar</button>
-      <button type="button" class="btn btn-success">Proceder al Pago</button> -->
+        <button type="button" class="btn btn-success">Proceder al Pago</button> -->
     </div>
   </div>
+
+
   <main>
     <section class="text-center container_logo_true_style">
       <a href="index.html">
@@ -88,22 +89,111 @@
         </li>
       </ul>
     </nav>
-    <a href=""></a>
-    <section class="text-center">
-      <div class="row">
-        <div class="col-12 mb-5">
-          <img class="shadow-lg img-fluid imagen-grande" src="/img/Hombre.svg" alt="Categoría Hombre">
-        </div>
-        <div class="col-12 mb-5">
-          <img class="shadow-lg img-fluid imagen-grande" src="/img/Mujer.svg" alt="Categoría Mujer">
-        </div>
-        <div class="col-12 mb-5">
-          <img class="shadow-lg img-fluid imagen-grande" src="/img/Niña.svg" alt="Categoría Niña">
+  </main>
+
+
+  <!-- inicio secciones-->
+  <!-- carrusel -->
+  <div id="template-mo-zay-hero-carousel" class="carousel slide contenedor-carrusel" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
+      <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="row p-5">
+            <div class="mx-auto col-md-8 col-lg-5 order-lg-last">
+              <img class="img-fluid col-11" src="/img/hombre.svg" alt="">
+            </div>
+            <div class="col-lg-6 mb-0 d-flex align-items-center">
+              <div class="text-align-left align-self-center">
+                <h1 class="h1 text-"><b>Linea De Ropa Hombre</b></h1>
+                <p>Diferentes estilos y combinaciones.</p>
+
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row p-5">
+            <div class="mx-auto col-md-8 col-lg-5 order-lg-last">
+              <img class="img-fluid col-11" src="/img/Mujer.svg" alt="">
+            </div>
+            <div class="col-lg-6 mb-0 d-flex align-items-center">
+              <div class="text-align-left">
+                <h1 class="h1">Linea De Ropa Mujer</h1>
+                <p>Diferentes estilos y combinaciones .</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row p-5">
+            <div class="mx-auto col-md-8 col-lg-5 order-lg-last d-flex">
+              <img class="img-fluid col-13" src="/img/Niña.svg" alt="">
+              <img class="img-fluid col-5 "
+                src="/img/niños//niño/Camiseta-de-deporte-en-DryMove™---Negro-Ombre---H-M-CO.webp" alt="">
+            </div>
+            <div class="col-lg-6 mb-0 d-flex align-items-center">
+              <div class="text-align-left">
+                <h1 class="h1">Linea De Ropa Niños y Niñas</h1>
+                <p>Diferentes estilos y combinaciones para niños y niñas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel"
+      role="button" data-bs-slide="prev">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel"
+      role="button" data-bs-slide="next">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  </div>
+  <!-- fin carrusel -->
+  <section class="container py-5">
+    <div class="row text-center pt-3">
+      <div class="col-lg-6 m-auto">
+        <h1 class="h1">Categorías del mes...</h1>
+        <p>
+          Esta son la categorias mas vendidas del mes.....
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-4 p-5 mt-3">
+        <a href="#"><img src="/img/mujer/Mujer-02.webp" class="rounded-circle img-fluid border"> </a>
+        <h5 class="text-center mt-3 mb-3">Top de corte ajustado en punto suave</h5>
+        <p class="text-center"><a class="btn btn-success" href="compras.html">Ir a Comprar</a></p>
+      </div>
 
-  </main>
+      <div class="col-12 col-md-4 p-5 mt-3">
+        <a href="#"><img src="/img/hombre/Joggers-cargo-Slim-Fit---Negro---.webp"
+            class="rounded-circle img-fluid border"> </a>
+        <h5 class="text-center mt-3 mb-3">Joggers cargo Slim Fit</h5>
+        <p class="text-center"><a class="btn btn-success" href="compras.html">Ir a Comprar</a></p>
+      </div>
+
+      <div class="col-12 col-md-4 p-5 mt-3">
+        <a href="#"><img src="/img/niños/niño/Wide-Leg-Jeans---Gris-denim---.webp"
+            class="rounded-circle img-fluid border"> </a>
+        <h5 class="text-center mt-3 mb-3">Joggers de franela</h5>
+        <p class="text-center"><a class="btn btn-success" href="compras.html">Ir a Comprar</a></p>
+      </div>
+    </div>
+  </section>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.js"> </script>
+  <!-- fin secciones-->
+
   <footer class="container-fluid bg-black text-light">
     <div class="container-sm">
       <div class="d-flex justify-content-center">
@@ -157,6 +247,7 @@
       <a href="#">
         <img class="ms-5 me-4" src="/icon/pinterest.svg" alt="Pinterest" width="25px">
       </a>
+
     </section>
     <section class="container d-flex justify-content-center pt-3">
       <img src="/icon/Diseño sin título 1.svg" alt="Diseño TrueStyle">
