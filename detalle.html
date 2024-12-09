@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Bienvenido a TrueStyle, tu tienda de ropa online favorita." />
+  <meta name="keywords" content="TrueStyle, ropa, moda, compras en línea" />
+  <title>TrueStyle</title>
+  <link rel="stylesheet" href="/scss/custom.css" />
+  <link rel="stylesheet" href="/scss/style.css" />
+</head>
+
+<body>
+  <header>
+    <section class="text-Oswald pt-3 bg-black pb-2">
+      <h4 class="text-center text-white">Envíos Gratis por Compras Mayores a 150.000</h4>
+    </section>
+    <section class="container-fluid d-flex justify-content-between mb-0 mt-4">
+      <h5 class="ms-5">Nueva Colección</h5>
+      <nav class="navbar navbar-expand-lg py-3 w-100">
+        <ul class="nav justify-content-end w-100 align-items-center">
+          <li class="nav-item">
+            <a class="nav-link text-black" href="login.php">
+              <img src="/icon/User.svg" alt="Icono de Usuario">
+              Iniciar Sesión
+            </a>
+          </li>
+          <!-- Botón de Carrito -->
+          <li class="nav-item">
+            <a class="nav-link text-black" href="#" data-bs-toggle="offcanvas" data-bs-target="#cartOffcanvas"
+              aria-controls="cartOffcanvas">
+              <img src="/icon/Carrito.svg" alt="Icono de Carrito">
+              Carrito
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+  </header>
+  <!-- Offcanvas Carrito -->
+  <div class="offcanvas offcanvas-end carrito_list" tabindex="-1" id="cartOffcanvas"
+    aria-labelledby="cartOffcanvasLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="cartOffcanvasLabel">Tu Carrito</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
+    </div>
+    <div class="offcanvas-body">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Imagen</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Cantidad</th>
+          </tr>
+        </thead>
+        <tbody id="cart-items">
+          <!-- Los elementos del carrito se cargarán aquí dinámicamente -->
+        </tbody>
+      </table>
+      <p id="empty-cart-message">No hay productos aún.</p>
+      <a class="btn btn-outline-black" href="" id="vaciar_carrito">Vaciar Carrito</a>
+      <a class="btn btn-outline-success" href="">Pagar</a>
+    </div>
+
+    <div class="offcanvas-footer d-flex justify-content-between">
+      <!-- <button type="button" class="btn btn-danger" data-bs-dismiss="offcanvas">Cerrar</button>
+      <button type="button" class="btn btn-success">Proceder al Pago</button> -->
+    </div>
+  </div>
+  <main>
+    <section class="text-center container_logo_true_style">
+      <a href="index.html">
+        <img src="/icon/Logo_True_Style.svg" alt="Logo TrueStyle">
+      </a>
+    </section>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white justify-content-center mb-3">
+      <ul class="nav justify-content-center align-items-center">
+        <li class="nav-item">
+          <a class="nav-link text-black" href="/index_card_mujer.html">Mujer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black" href="/index_card_hombre.html">Hombre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black" href="/index_card_niño.html">Niño</a>
+        </li>
+      </ul>
+    </nav>
+    <section>
+      <div id="product-detail"></div>
+    </section>
+
+  </main>
+  <footer class="container-fluid bg-black text-light">
+    <div class="container-sm">
+      <div class="d-flex justify-content-center">
+        <!-- Sección Colecciones -->
+        <div class="me-5 mt-3">
+          <h4 class="text-white text-Oswald">Colecciones</h4>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-Oswald d-flex">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/index_card_mujer.html">Mujer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/index_card_hombre.html">Hombre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/index_card_niño.html">Niño</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Sección Ayuda -->
+        <div class="me-5 mt-3">
+          <h4 class="text-white text-Oswald">Ayuda</h4>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-Oswald d-flex">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="">Servicio al Cliente</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="">Mi Cuenta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="">Nuestras Tiendas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="">Términos y Condiciones</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <section class="container d-flex justify-content-center mt-4">
+      <a href="#">
+        <img class="ms-5 me-4" src="/icon/facebook.svg" alt="Facebook" width="25px">
+      </a>
+      <a href="#">
+        <img class="ms-5 me-4" src="/icon/instagram.svg" alt="Instagram" width="25px">
+      </a>
+      <a href="#">
+        <img class="ms-5 me-4 mt-2" src="/icon/youtube.svg" alt="YouTube" width="25px">
+      </a>
+      <a href="#">
+        <img class="ms-5 me-4" src="/icon/pinterest.svg" alt="Pinterest" width="25px">
+      </a>
+    </section>
+    <section class="container d-flex justify-content-center pt-3">
+      <img src="/icon/Diseño sin título 1.svg" alt="Diseño TrueStyle">
+    </section>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </footer>
+</body>
+<script src="js/detalle.js"></script>
+
+</html>
