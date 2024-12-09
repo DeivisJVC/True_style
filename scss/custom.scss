@@ -5,6 +5,7 @@ $danger: #ff0000;
 $tertiary: #5694dc;
 $success: #027500;
 $black: #000000;
+$light_brown: #f8f7f5;
 
 $theme-colors: (
   "primary": $primary,
@@ -12,6 +13,7 @@ $theme-colors: (
   "tertiary": $tertiary,
   "success": $success,
   "black": $black,
+  "light_brown": $light_brown,
 );
 
 @import "../node_modules/bootstrap/scss/bootstrap";

@@ -51,13 +51,20 @@ if (category && productId) {
       const detailContainer = document.getElementById("product-detail");
       if (detailContainer) {
         detailContainer.innerHTML = `
-          <img src="${product.img}" class="card-img-top mt-3" alt="${product.name}">
-          <div class="card-body">
-            <h5 class="card-title">${product.name}</h5>
-            <p class="card-text">${product.descripcion}</p>
-            <p class="card-text text-success">${product.oferta}</p>
-            <p class="card-text"><strong>Precio: $${product.price}</strong></p>
+          <div class="row justify-content-center ">
+          <div class="col-sm-6 mb">
+          <img src="${product.img}" class="card-img-top mt-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded-3" alt="${product.name}">
           </div>
+          <div class="col-sm-6 bg-light_brown align-self-center h-75 p-5 align-content-center shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+            <h5 class="card-title fs-1 text-Oswald fw-bold mb-3">${product.name}</h5>
+            <p class="card-text mb-5 fs-5">${product.descripcion}</p>
+            <p class="card-text fw-bold fs-5"><strong>Precio: $${product.price}</strong></p>
+            <p class="card-text text-success"><strong>Oferta: ${product.oferta}</strong></p>
+            <div class="d-flex justify-content-center align-items-center">
+            <button class="btn btn-black w-75 mt-5 p-2  text-Oswald fs-5">AGREGAR AL CARRITO</button>
+            </div>
+          </div>
+          <div/>
         `;
       } else {
         console.error("No se encontró el contenedor con id 'product-detail'.");
