@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8" />
@@ -39,18 +39,32 @@
     </section>
   </header>
   <!-- Offcanvas Carrito -->
-  <div class="offcanvas offcanvas-end" tabindex="-1" id="cartOffcanvas" aria-labelledby="cartOffcanvasLabel">
+  <div class="offcanvas offcanvas-end carrito_list" tabindex="-1" id="cartOffcanvas"
+    aria-labelledby="cartOffcanvasLabel">
     <div class="offcanvas-header">
       <h5 class="offcanvas-title" id="cartOffcanvasLabel">Tu Carrito</h5>
       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
     </div>
     <div class="offcanvas-body">
-      <p>No hay productos aún.</p>
-      <!-- Aquí puedes agregar dinámicamente los productos en el carrito -->
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Imagen</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Cantidad</th>
+          </tr>
+        </thead>
+        <tbody id="cart-items">
+          <!-- Los elementos del carrito se cargarán aquí dinámicamente -->
+        </tbody>
+      </table>
+      <a class="btn btn-outline-black w-100" href="" id="vaciar_carrito">Vaciar Carrito</a>
     </div>
+
     <div class="offcanvas-footer d-flex justify-content-between">
       <!-- <button type="button" class="btn btn-danger" data-bs-dismiss="offcanvas">Cerrar</button>
-      <button type="button" class="btn btn-success">Proceder al Pago</button> -->
+            <button type="button" class="btn btn-success">Proceder al Pago</button> -->
     </div>
   </div>
   <main>

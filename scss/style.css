@@ -4,6 +4,19 @@
   font-weight: weight;
   font-style: normal;
 }
+/* Aplica la fuente a etiquetas que no sean párrafos */
+h4,
+h5,
+h6,
+div,
+span,
+a,
+li,
+ul,
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
 * {
   text-transform: capitalize;
   box-sizing: border-box;
@@ -103,3 +116,8 @@ img {
   flex-direction: column;
   align-items: center;
 }
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+  border-radius: 30%;
+} */

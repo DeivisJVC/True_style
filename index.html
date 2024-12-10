@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8" />
@@ -17,17 +17,17 @@
       <h4 class="text-center text-white">Envíos Gratis por Compras Mayores a 150.000</h4>
     </section>
     <section class="container-fluid d-flex justify-content-between mb-0 mt-4">
-      <h5 class="ms-5">Nueva Colección</h5>
+      <h5 class="ms-5 text-Oswald"><a href="/index_card_mujer.html" class="nav-link">Nueva Colección</a></h5>
       <nav class="navbar navbar-expand-lg py-3 w-100">
         <ul class="nav justify-content-end w-100 align-items-center">
           <li class="nav-item">
-            <a class="nav-link text-black" href="login.php">
+            <a class="nav-link text-black text-Oswald" href="login.php">
               <img src="/icon/User.svg" alt="Icono de Usuario"> Iniciar Sesión </a>
           </li>
           <!-- Botón de Carrito -->
           <li class="nav-item">
-            <a class="nav-link text-black" href="#" data-bs-toggle="offcanvas" data-bs-target="#cartOffcanvas"
-              aria-controls="cartOffcanvas">
+            <a class="nav-link text-black text-Oswald" href="#" data-bs-toggle="offcanvas"
+              data-bs-target="#cartOffcanvas" aria-controls="cartOffcanvas">
               <img src="/icon/Carrito.svg" alt="Icono de Carrito">
               Carrito
             </a>
@@ -36,7 +36,6 @@
       </nav>
     </section>
   </header>
-
   <!-- Offcanvas Carrito -->
   <div class="offcanvas offcanvas-end carrito_list" tabindex="-1" id="cartOffcanvas"
     aria-labelledby="cartOffcanvasLabel">
@@ -58,9 +57,7 @@
           <!-- Los elementos del carrito se cargarán aquí dinámicamente -->
         </tbody>
       </table>
-      <p id="empty-cart-message">No hay productos aún.</p>
-      <a class="btn btn-outline-black" href="" id="vaciar_carrito">Vaciar Carrito</a>
-      <a class="btn btn-outline-success" href="">Pagar</a>
+      <a class="btn btn-outline-black w-100" href="" id="vaciar_carrito">Vaciar Carrito</a>
     </div>
 
     <div class="offcanvas-footer d-flex justify-content-between">
@@ -68,8 +65,6 @@
         <button type="button" class="btn btn-success">Proceder al Pago</button> -->
     </div>
   </div>
-
-
   <main>
     <section class="text-center container_logo_true_style">
       <a href="index.html">
@@ -90,16 +85,8 @@
       </ul>
     </nav>
   </main>
-
-
-  <!-- inicio secciones-->
   <!-- carrusel -->
-  <div id="template-mo-zay-hero-carousel" class="carousel slide contenedor-carrusel" data-bs-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
-      <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
-      <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
-    </ol>
+  <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="container">
@@ -109,7 +96,7 @@
             </div>
             <div class="col-lg-6 mb-0 d-flex align-items-center">
               <div class="text-align-left align-self-center">
-                <h1 class="h1 text-"><b>Linea De Ropa Hombre</b></h1>
+                <h2 class="h1 text-">Linea De Ropa Hombre</h2>
                 <p>Diferentes estilos y combinaciones.</p>
 
               </div>
@@ -125,7 +112,7 @@
             </div>
             <div class="col-lg-6 mb-0 d-flex align-items-center">
               <div class="text-align-left">
-                <h1 class="h1">Linea De Ropa Mujer</h1>
+                <h2 class="h1">Linea De Ropa Mujer</h2>
                 <p>Diferentes estilos y combinaciones .</p>
               </div>
             </div>
@@ -142,7 +129,7 @@
             </div>
             <div class="col-lg-6 mb-0 d-flex align-items-center">
               <div class="text-align-left">
-                <h1 class="h1">Linea De Ropa Niños y Niñas</h1>
+                <h2 class="h1">Linea De Ropa Niños y Niñas</h2>
                 <p>Diferentes estilos y combinaciones para niños y niñas.</p>
               </div>
             </div>
@@ -150,14 +137,15 @@
         </div>
       </div>
     </div>
-    <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel"
-      role="button" data-bs-slide="prev">
-      <i class="fas fa-chevron-left"></i>
-    </a>
-    <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel"
-      role="button" data-bs-slide="next">
-      <i class="fas fa-chevron-right"></i>
-    </a>
+    <button class="carousel-control-prev" type="button" data-bs-target="#template-mo-zay-hero-carousel"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon bg-black rounded-3" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#template-mo-zay-hero-carousel"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon bg-black rounded-3" aria-hidden=" true"></span>
+
+    </button>
   </div>
   <!-- fin carrusel -->
   <section class="container py-5">
@@ -170,28 +158,28 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-12 col-md-4 p-5 mt-3">
-        <a href="#"><img src="/img/mujer/Mujer-02.webp" class="rounded-circle img-fluid border"> </a>
+      <div class="col-12 col-sm-6 col-md-4 mb-4">
+        <a href="/index_card_mujer.html"><img src="/img/mujer/Mujer-02.webp" class="rounded-circle img-fluid border">
+        </a>
         <h5 class="text-center mt-3 mb-3">Top de corte ajustado en punto suave</h5>
-        <p class="text-center"><a class="btn btn-success" href="compras.html">Ir a Comprar</a></p>
+        <p class="text-center"><a class="btn btn-outline-black" href="/index_card_mujer.html">Ir a Comprar</a></p>
       </div>
 
-      <div class="col-12 col-md-4 p-5 mt-3">
-        <a href="#"><img src="/img/hombre/Joggers-cargo-Slim-Fit---Negro---.webp"
+      <div class="col-12 col-sm-6 col-md-4 mb-4">
+        <a href="/index_card_hombre.html"><img src="/img/hombre/Joggers-cargo-Slim-Fit---Negro---.webp"
             class="rounded-circle img-fluid border"> </a>
         <h5 class="text-center mt-3 mb-3">Joggers cargo Slim Fit</h5>
-        <p class="text-center"><a class="btn btn-success" href="compras.html">Ir a Comprar</a></p>
+        <p class="text-center"><a class="btn btn-outline-black" href="/index_card_hombre.html">Ir a Comprar</a></p>
       </div>
 
-      <div class="col-12 col-md-4 p-5 mt-3">
-        <a href="#"><img src="/img/niños/niño/Wide-Leg-Jeans---Gris-denim---.webp"
+      <div class="col-12 col-sm-6 col-md-4 mb-4">
+        <a href="/index_card_niño.html"><img src="/img/niños/niño/Wide-Leg-Jeans---Gris-denim---.webp"
             class="rounded-circle img-fluid border"> </a>
         <h5 class="text-center mt-3 mb-3">Joggers de franela</h5>
-        <p class="text-center"><a class="btn btn-success" href="compras.html">Ir a Comprar</a></p>
+        <p class="text-center"><a class="btn btn-outline-black" href="/index_card_niño.html">Ir a Comprar</a></p>
       </div>
     </div>
   </section>
-  <script src="/node_modules/bootstrap/dist/js/bootstrap.js"> </script>
   <!-- fin secciones-->
 
   <footer class="container-fluid bg-black text-light">
