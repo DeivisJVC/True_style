@@ -13,13 +13,12 @@ fetch("http://localhost:3000/hombre")
 
       card.innerHTML = `
         <div class="card border-0" data-product-id="${product.id}" data-category="hombre">
-            <img src="${product.img}" class="img-fluid mt-5" alt="${product.name}">
+            <img src="${product.img}" class="img-fluid mt-5" alt="${product.name} ">
             <div class="card-body">
                 <h5 class="card-title">${product.name}</h5>
                 <p class="card-text">${product.descripcion}</p>
                 <p class="card-text text-success">${product.oferta}</p>
                 <p class="card-text"><strong>Precio: $${product.price}</strong></p>
-                <button class="btn btn-outline-black" onclick="addToCart(${product.id})">Agregar al Carrito</button>
             </div>
         </div>
       `;

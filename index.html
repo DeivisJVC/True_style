@@ -20,14 +20,11 @@
       <h5 class="ms-5 text-Oswald"><a href="/index_card_mujer.html" class="nav-link">Nueva Colección</a></h5>
       <nav class="navbar navbar-expand-lg py-3 w-100">
         <ul class="nav justify-content-end w-100 align-items-center">
-          <li class="nav-item">
-            <a class="nav-link text-black text-Oswald" href="login.php">
-              <img src="/icon/User.svg" alt="Icono de Usuario"> Iniciar Sesión </a>
-          </li>
           <!-- Botón de Carrito -->
           <li class="nav-item">
             <a class="nav-link text-black text-Oswald" href="#" data-bs-toggle="offcanvas"
               data-bs-target="#cartOffcanvas" aria-controls="cartOffcanvas">
+              <span id="cart-count" class="badge bg-danger">0</span>
               <img src="/icon/Carrito.svg" alt="Icono de Carrito">
               Carrito
             </a>
@@ -241,6 +238,7 @@
       <img src="/icon/Diseño sin título 1.svg" alt="Diseño TrueStyle">
     </section>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/renderizar_carrito.js"></script>
   </footer>
 </body>
 

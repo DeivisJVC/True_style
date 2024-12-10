@@ -16,4 +16,14 @@ $theme-colors: (
   "light_brown": $light_brown,
 );
 
+// Definir breakpoints personalizados en Bootstrap usando SASS
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+
 @import "../node_modules/bootstrap/scss/bootstrap";
