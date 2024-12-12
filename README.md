@@ -14,21 +14,25 @@
 
 - **Catálogo de Productos**: Organizado en categorías (niños, mujeres y hombres).
 - **Carrito de Compras**: Permite a los usuarios agregar productos, ajustar cantidades y vaciar el carrito.
-- **Simulación de Compra**: Los usuarios pueden realizar un proceso simulado de compra.
 - **Interfaz Responsiva**: Adaptada a dispositivos móviles y de escritorio.
 
 ## Instalación
 
 1. Clona este repositorio:
+
    ```bash
    git clone https://github.com/DeivisJVC/True_style.git
 
+   ```
+
 2. Ve al directorio del proyecto:
+
    ```bash
    cd true-style
    ```
 
 3. Instala las dependencias necesarias:
+
    ```bash
    npm install
    ```
@@ -61,12 +65,8 @@ Este proyecto fue creado por **Marian Cabana**, **Deivis Yance** y **Camilo**. S
 
 ## Capturas de Pantalla
 
-![Captura del sitio True Style](img/Screenshot_2024_1211_230118.jpg)
+![Captura del sitio True Style](img/Captura%20de%20pantalla%202024-12-12%20113035.png)
 
 ## AUTOR
-creado por , Marian cabana, Deivis Yance, Camilo 
 
-
-
-
-
+creado por , Marian cabana, Deivis Yance, Camilo Silvera
